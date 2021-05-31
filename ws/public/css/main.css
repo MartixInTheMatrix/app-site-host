@@ -1,0 +1,457 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+
+.header {
+    background: #2a81aa;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+}
+#hero{
+    background: #2a81aa;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px 40px 40px 40px;
+    color: white;
+    text-align: center;
+}
+
+.slogan{
+    color: rgb(170, 170, 170);
+    font-style: italic;
+}
+.bg-img{
+    opacity: 1;
+    height: 250px;
+    width: auto;
+    float: right;
+}
+
+
+.bg-img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2a81aa;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #2a81aa;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
+ label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+  }
+  #forgot-pass {
+    color: #2a81aa;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+  }
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+  #card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  #signup {
+    color: #2a81aa;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  #submit-btn {
+    background: -webkit-linear-gradient(right, #3aaadf, #2a81aa);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #2a81aa;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+  }
+  #n-submit-btn {
+    background: -webkit-linear-gradient(right, #3aaadf, #2a81aa);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #2a81aa;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+  }
+  #submit-btn:hover {
+    box-shadow: 0px 1px 18px #2a81aa;
+  }
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #3aaadf, #2a81aa);
+    height: 1px;
+    width: 100%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #3aaadf, #2a81aa);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+  }
+  
+  .left{
+      border-left: 200px;
+      float: left;
+  }
+  .right{
+      float: right;
+      border-right: 200px;
+  }
+#footer{
+  background-color: #2a81aa;
+
+}
+  #footer p {
+    background-color: #2a81aa;
+      color: white;
+      text-align: center;
+  }
+
+
+
+
+
+.contact-card
+{
+    z-index: 1;
+    position: relative;
+    width: 300px;
+    height:400px;
+    margin: 0 auto;
+    margin-top:100px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+/*
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.2);
+*/
+}
+.contact-card.active
+{
+    height:490px;
+}
+.banner1
+{
+    z-index: 2;
+    position: relative;
+    margin-top: -154px;
+    width:100%;
+    height:150px;
+    background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/RQ2Z75PQIN.jpg");
+    background-size: cover;
+    border-bottom: solid 1px lightgrey;
+  
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.banner1.active
+{
+    height: 0;
+  
+}
+
+.user1
+{
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("https://cdn.discordapp.com/avatars/690831638623420438/7c5bdce3729fda4540b27ae7e79ab7ed.png?size=256");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:75px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+}
+
+.user1.active
+{
+    top:-80px;
+}
+.user2
+{
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("https://cdn.discordapp.com/avatars/338668467991609345/bfafe5ff405319cf2cff807b74ab6555.png?size=256");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:75px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+}
+
+.user2.active
+{
+    top:-80px;
+}
+.user3
+{
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("https://cdn.discordapp.com/avatars/626431238491734026/bdc554ef1f16f6a02b50947d463d4140.webp?size=256");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:75px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+}
+
+.user3.active
+{
+    top:-80px;
+}
+
+.contact-card ul
+{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top:87px;
+    margin-bottom:30px;
+    font-size: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.contact-card ul.active
+{
+    opacity:0;
+    visibility: hidden;
+}
+
+.contact-card i
+{
+    font-size: 25px;
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    width: 300px;;
+    text-align: left;
+    color: #C7D0E1;
+}
+
+
+
+.social-media-banner
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    position: absolute;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition:    all 1.5s ease-in-out;
+    -o-transition:      all 1.5s ease-in-out;
+    -ms-transition:     all 1.5 ease-in-out;
+}
+
+.social-media-banner.active
+{
+    opacity:0;
+    visibility: hidden;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+}
+
+.social-media-banner a i
+{
+    display: inline;
+    width: auto;
+    margin-right:15px;
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.social-media-banner a i:hover
+{
+    color:#979da8;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800%7CRaleway:100,200,300,400,600,700,800,900%7CMontserrat:100,200,300,400,500,600,700,800,900");
+.box-shadow{box-shadow:0px 0px 18px -3px rgba(143,143,143,0.5)}
+.pcard:hover{box-shadow:0px 0px 20px -3px rgba(143,143,143,0.75)}
+.box-shadow-dark{box-shadow:3px 3px 11px -3px rgba(0,0,0,0.25)}
+body{background-color:yellow;font-family:'Open Sans', Arial, Verdana}
+section{padding-top:2rem;padding-bottom:2rem}
+h6{color:#990000}
+.font-weight-bolder{font-weight:900}
+.display-1,.display-2,.display-3,.display-4{font-weight:900}
+.heading-big{font-weight:800;text-transform:uppercase;color:red;margin:0;padding:.15rem 0;line-height:1.2;font-size:2rem;transition:color .5s ease-in, border-color .5s ease-in-out}
+.heading-big-square{padding:1rem 1rem;border:10px solid red;margin:.5rem auto 1rem auto}.heading-big:hover{color:#ff9900;border-color:#ff9900}.pcard{transition:.5s ease;border-radius:0;transform:perspective(3em) rotateX(0deg) rotateY(-1.175deg) rotateZ(-1deg)}.pcard-header{border-radius:0}.pcard-footer{padding-top:1rem;padding-bottom:1rem}.pcard-header,.pcard-footer{transition:.5s ease}.pcard:hover{border-color:#ffc107;transform:perspective(0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg)}.pcard:hover .pcard-header,.card:hover .pcard-footer{color:#ba8b00;border-color:#ffc107;background-color:#ffeeba}.pcard:hover 
+.promotion-promo{
+    transform:scale(1.175) translateY(2.5px);transform-origin:left center}
+    .pcard:hover 
+    .promotion-price{transform:translate(2.5px, 17.5px) scale(1.15);transform-origin:center right}
+    .pcard-body{position:relative;z-index:0;overflow:hidden;padding-top:2rem;padding-bottom:2rem}.pcard .btn{font-weight:bold;text-transform:uppercase}.promotion-promo{font-weight:700;font-size:1.15rem;color:#ffc107;font-family:"Montserrat",sans-serif;text-decoration:line-through;transition:.25s linear}.promotion-price{position:absolute;bottom:0;right:0;background:#ffc107;width:92px;height:92px;padding-bottom:0rem;padding-top:1.25rem;text-align:center;font-weight:700;font-family:"Montserrat",sans-serif;font-size:1.1rem;border-radius:5rem;color:#fff;z-index:-1;transform:translate(5px, 27.5px) rotate(-9deg);border:1px dashed #fff;transition:.25s linear;line-height:1.15}.promotion-price-desc{padding:0;margin:0 auto;text-transform:uppercase;font-size:.9rem;display:block}.promotion-price-text{padding:0;margin:0 auto;font-weight:900}.pcard-animate{counter-reset:section}.pcard-animate .pcard-body:before{transition:.5s ease;counter-increment:section;content:"" counter(section) "";display:block;font-size:15rem;font-weight:900;position:absolute;bottom:5rem;line-height:0;left:-.85rem;padding:0;margin:0;color:rgba(0,0,0,0.1);z-index:0}.pcard-animate .pcard:hover .pcard-body:before{transform:translate(10px, -10px)}.pcard-animate .pcard-text{margin-top:2rem;margin-bottom:2rem}.pcard-animate .pcard-title{font-weight:900;text-transform:uppercase}
+
+    .invisible-card{
+      padding: 50px;
+    }
+    .invisible-card li{
+      list-style: none;
+      font-size: 17px;
+    }
+.container-footer{
+  padding-left: 42%;
+}
+.center-about{
+  text-align: center;
+  padding-left: 30%;
+}
+.vieux-cadres{
+  max-width: 360px;
+  min-width: 350px;
+}
+.vieux-cadres span{
+  padding: 10px;
+}
+
+
+
+
+
